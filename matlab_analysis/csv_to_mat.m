@@ -1,4 +1,4 @@
-%% CSV -> MAT bulk converter
+%% CSV -> MAT 
 % Writes directly in the <bin> directory as:
 %   0H.mat
 %   <H>_<bit>.mat
@@ -6,8 +6,8 @@ clear; clc;
 
 % --------- CONFIG ---------
 % We did opendp and ibm with opensll and rap2 with eps 0.1
-libraries = {'opendp_mod','opendp', 'ibm'};
-bin_names = {'rap2', 'openssl', 'xor', 'mgb_bad'};
+libraries = {'ibm'};
+bin_names = {'rap2', 'openssl', 'mgb_bad'};
 mechanism = {'l', 'g'};
 epsilons  = 0.1;
 
